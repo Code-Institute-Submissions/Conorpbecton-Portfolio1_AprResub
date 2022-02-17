@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    
+
+}
+html{
+    background-image: linear-gradient(#000,rgb(85, 85, 85));
 }
 
 .container {
@@ -12,13 +15,15 @@
     background-size: cover;
     background-position: center;
 }
-.container h1{
-    color:white;
+
+ h1 {
+    color: white;
     width: 40%;
     text-align: left;
 }
-.container p{
-    color:white;
+
+ p {
+    color: white;
     width: 40%;
     text-align: left;
 }
@@ -29,26 +34,30 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: 000;
-  }
-  
-  li {
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  li a:hover{
-      color: aqua;
-  }
+}
+
+li a:hover {
+    color: aqua;
+}
 
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid white;
     border-collapse: collapse;
+    color: white;
+    padding: 14px;
+    margin: 14px;
 }
