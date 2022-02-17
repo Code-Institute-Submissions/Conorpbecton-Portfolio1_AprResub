@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/*headings and logo*/
+h1,
+h2 {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 200%;
+}
+
+/*navigation Links*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
+    color: red;
+}
+
+.active {
+    border-radius: 1px solid red;
+}
+
+/*hero image*/
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('/workspace/Portfolio1/assets/css/images/bike.jpg') no-repeat;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    padding: 14px;
+    margin: 14px;
+    border-collapse: collapse;
+}
