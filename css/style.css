@@ -60,4 +60,5 @@ td {
     color: white;
     padding: 14px;
     margin: 14px;
+    border-collapse: collapse;
 }
