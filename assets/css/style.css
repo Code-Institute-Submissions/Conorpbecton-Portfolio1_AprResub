@@ -9,7 +9,7 @@
 body {
     font-family: Ubuntu, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: white;
 }
 
 /*headings and logo*/
@@ -23,6 +23,7 @@ h2 {
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 4px;
 }
 
 /*navigation Links*/
@@ -34,6 +35,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    color:#3a3a3a;
 }
 
 #menu li {
@@ -86,13 +88,29 @@ h2 {
 
     position:absolute;
 }
+
+#license-info{
+    height: 100vh;
+    padding-top: 40px;
+    padding-left: 10%;
+    float: left;
+    background-color: black;
+    
+}
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 3px solid white;
     border-collapse: collapse;
-    color: black;
+    color: white;
     padding: 14px;
     margin: 14px;
     border-collapse: collapse;
+    position: relative;
+}
+
+license-summary{
+    color:white;
+    position: absolute;
+    
 }
