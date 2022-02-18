@@ -92,7 +92,7 @@ h2 {
 #license-info{
     height: 100vh;
     padding-top: 40px;
-    padding-left: 10%;
+    padding-left: 5%;
     float: left;
     background-color: black;
     
@@ -109,8 +109,3 @@ td {
     position: relative;
 }
 
-license-summary{
-    color:white;
-    position: absolute;
-    
-}
