@@ -92,6 +92,7 @@ h2 {
     position: absolute;
 }
 
+/*License section*/
 #license-info {
     height: 100vh;
     padding-top: 40px;
@@ -99,7 +100,7 @@ h2 {
     float: left;
     color: black;
 }
-
+/*license category table*/
 table,
 th,
 td {
