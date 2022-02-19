@@ -115,9 +115,10 @@ td {
 #license-steps {
     height: 100vh;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 100px;
     margin: 40px;
     color: black;
+    overflow: hidden;
 }
 
 @media (max-width:800px) {
