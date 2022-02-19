@@ -119,3 +119,14 @@ td {
     color: black;
     overflow: hidden;
 }
+
+@media (max-width:800px){
+    #cover-text{
+        font-size: 80%;
+        width: 150;
+        height: 162px;
+    
+        top: 225px;
+        left: 75px;
+    
+    }
