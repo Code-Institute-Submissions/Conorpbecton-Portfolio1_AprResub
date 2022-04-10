@@ -124,7 +124,7 @@ td {
 @media (max-width:800px) {
     #cover-text {
         font-size: 80%;
-        width: 150;
+        width: 150px;
         height: 162px;
 
         top: 225px;
